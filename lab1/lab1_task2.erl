@@ -2,8 +2,8 @@
 -export([min/1]).
 
 %% min(List) -> term()
-%% Возвращает минимальный элемент списка.
-%% Пустой список -> исключение {error, empty_list}
+%% минимальный элемент списка.
+%% Пустой -> исключение {error, empty_list}
 min([]) ->
     error({error, empty_list});
 min([Head | Tail]) ->
