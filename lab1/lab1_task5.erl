@@ -1,10 +1,6 @@
 -module(lab1_task5).
 -export([sublist/2, sublist/3]).
 
-%% sublist(List, [N, M]) -> [term()]
-%% sublist(List, N, M)   -> [term()]
-%% Возвращает элементы списка с N-го по M-й включительно (нумерация с 1)
-%%
 %% Пример: sublist([1,3,4,5,6], [2,4]) => [3,4,5]
 sublist(List, [N, M]) ->
     sublist(List, N, M).

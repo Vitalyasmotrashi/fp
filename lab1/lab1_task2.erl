@@ -1,9 +1,6 @@
 -module(lab1_task2).
 -export([min/1]).
 
-%% min(List) -> term()
-%% минимальный элемент списка.
-%% Пустой -> исключение {error, empty_list}
 min([]) ->
     error({error, empty_list});
 min([Head | Tail]) ->
